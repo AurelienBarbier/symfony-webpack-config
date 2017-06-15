@@ -1,0 +1,27 @@
+{
+	"name": "wcs-aurel-2017-symfony-webpack",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "NODE_ENV=development webpack-dev-server",
+		"build": "NODE_ENV=production webpack"
+	},
+	"devDependencies": {
+		"babel-core": "^6.25.0",
+		"babel-loader": "^7.0.0",
+		"bootstrap-sass": "^3.3.7",
+		"css-loader": "^0.28.4",
+		"extract-text-webpack-plugin": "^2.1.2",
+		"file-loader": "^0.11.2",
+		"jquery": "^3.2.1",
+		"loader-utils": "^1.1.0",
+		"node-sass": "^4.5.3",
+		"sass-loader": "^6.0.6",
+		"style-loader": "^0.18.2",
+		"webpack": "^2.2.1",
+		"webpack-dev-server": "^2.4.5",
+		"write-file-webpack-plugin": "^4.1.0"
+	},
+	"dependencies": {
+		"webpack": "^2.6.1"
+	}
+}
